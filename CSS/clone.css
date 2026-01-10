@@ -1,0 +1,134 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY SKELETON */
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    height:60px;
+    background-color: rgb(47, 119, 220);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.navbar a{
+    text-decoration:none;
+    font-size:18px;
+    font-weight:700;
+    color:white;
+}
+
+/* HEADING */
+#heading-gallery{
+    text-align:center;
+    font-size:22px;
+    font-weight:700;
+    color:rgb(9, 118, 214);
+    margin:15px 0;
+}
+
+/* SECTION */
+.section{
+    flex:1;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:20px;
+}
+
+/* CARD */
+#card{
+    width:310px;
+    background:#e8efef;
+    border-radius:8px;
+    overflow:hidden;
+    transition: all 0.3s ease;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* CARD HOVER EFFECT 🔥 */
+#card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* IMAGE */
+#card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+/* CARD TITLE */
+#card h3{
+    color:rgb(31, 98, 213);
+    font-size:20px;
+    margin:8px;
+}
+
+/* BUTTON */
+#card button{
+    margin:8px;
+    padding:6px 18px;
+    border:none;
+    background-color:rgb(108, 108, 241);
+    color:white;
+    font-weight:600;
+    border-radius:4px;
+    cursor:pointer;
+    transition: background 0.3s ease;
+}
+
+#card button:hover{
+    background-color:rgb(78, 78, 220);
+}
+
+/* FOOTER */
+.footer{
+    background:#222;
+    color:#f1f1f1;
+    text-align:center;
+    padding:20px;
+}
+
+.footer a{
+    color:#ddd;
+    text-decoration:none;
+    margin:0 8px;
+}
+
+.footer a:hover{
+    color:white;
+}
+
+.footer p{
+    margin:6px 0;
+    font-size:14px;
+}
+
+/* 📱 RESPONSIVE (Mobile) */
+@media (max-width:768px){
+    .navbar{
+        flex-wrap:wrap;
+        height:auto;
+        padding:10px 0;
+        gap:10px;
+    }
+
+    #card{
+        width:90%;
+    }
+}
