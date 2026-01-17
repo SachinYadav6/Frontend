@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order list</title>
+</head>
+<body>
+    <style>
+        nav{
+            height: 60px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 7px;
+            
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 14px;
+            border-radius: 1px;
+            text-transform: uppercase;
+            padding: 7px 10px;
+            transition: all 0.3s ease;
+            transform: translateY(0);
+            position: relative;
+           
+            
+        }
+        nav a:hover{
+           transform: translateY(-2px);
+            background-color: red;
+            cursor: pointer;
+            box-shadow: 2px 2px 13px rgb(95, 15, 234);
+            text-shadow: 3px 3px 4px rgb(67, 39, 39);
+        }
+        na a::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0%;
+            height: 2px;
+            background: red;
+            transition: width 0.3s ease;
+        }
+    </style>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="">sign in</a>
+        <a href="">login</a>
+    </nav>
+</body>
+</html>
