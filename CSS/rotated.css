@@ -1,0 +1,23 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.rotate{
+    height: 150px;
+    width: 150px;
+    transition: transform 1s linear;
+    background-color: red;
+    border-radius: 50%;
+    border-bottom: 3px solid greenyellow;
+    border-top: 3px solid grey;
+    border-left: 3px solid greenyellow;
+    border-right: 3px solid rgb(90, 19, 176);
+    
+    
+}
+.rotate:hover{
+    transform: rotate(360deg);
+
+}
