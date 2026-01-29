@@ -1,0 +1,72 @@
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#020617;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+}
+
+.logo{color:#38bdf8;font-size:24px;}
+
+nav ul{list-style:none;display:flex;gap:20px;}
+nav ul li a{color:white;text-decoration:none;}
+
+.sidebar{
+position:fixed;
+top:70px;
+left:0;
+width:200px;
+height:100vh;
+background:#020617;
+padding:20px;
+}
+
+.sidebar a{display:block;color:white;margin:10px 0;text-decoration:none;}
+
+main{margin-left:220px;padding:100px 30px;}
+
+.hero{display:flex;gap:30px;align-items:center;}
+
+.hero img{
+width:220px;
+border-radius:50%;
+border:4px solid #38bdf8;
+animation:float 3s infinite;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-15px)}
+}
+
+h2{color:#38bdf8;margin:20px 0}
+
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:15px;}
+.skill-box{background:#020617;padding:15px;text-align:center;border-radius:8px;}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;}
+.card{background:#020617;border-radius:8px;overflow:hidden;}
+.card img{width:100%;height:160px;object-fit:cover;}
+
+footer{background:#020617;padding:20px;text-align:center}
+
+@media(max-width:768px){
+.sidebar{display:none}
+main{margin-left:0}
+}
