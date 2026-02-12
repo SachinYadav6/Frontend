@@ -1,4 +1,4 @@
-*{
+body{
     background-color: blueviolet;
     margin: 0px;
     padding: 0px;
@@ -55,7 +55,7 @@
     color: wheat;
     font-family: sans-serif;
     font-weight: 900;
-    
+
 }
 /* container_img */
 .container_img{
