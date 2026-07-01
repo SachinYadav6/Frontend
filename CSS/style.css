@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    transition: all 0.3s ease;
+}
+.container{
+    background-image: url("./sachinphoto.jpeg");
+  background-repeat: none;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+.container{
+    position: relative;
+}
+.container > *{
+    position: relative;
+    z-index: 1;
+}
+/* header css */
+
+.header{
+    background-color: rgb(18, 2, 244);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:rgb(212, 212, 245);
+    font-weight: 700;
+    font-family: sans-serif;
+    
+}
+a:hover{
+    padding: 5px 7px;
+    border-radius: 8px;
+    background-color: rgb(22, 100, 224);
+    
+}
+/* main css */
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+#heading_one{
+    color: white;
+    font-size: 78px;
+    position: relative;
+    top: 74px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 3px whitesmoke;
+}
+/* heading ka animation */
+#heading_one{
+    animation: fadeDown 1.2s ease;
+}
+
+@keyframes fadeDown{
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+
+}
+input::placeholder{
+    color:gray;
+    font-size: 14px;
+}
+input{
+    border: none;
+    padding: 15px 127px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px whitesmoke;
+    outline: none;
+}
+
+input:focus{
+    box-shadow: 0 0 10px #00e5ff;
+    transform: scale(1.02);
+}
+button{
+    margin-top: 9px;
+    border-style: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+   font-family: serif;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 900;
+   cursor: pointer;
+     box-shadow: 2px 2px 13px whitesmoke;
+}
+button:hover{
+    background-color: #005eff;
+    color: white;
+    transform: translateY(-2px);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+/* mobile responsive */
+@media (max-width: 768px){
+    #heading_one{
+        font-size: 38px;
+        text-align: center;
+        top: 40px;
+    }
+
+    input{
+        padding: 15px 60px;
+    }
+}

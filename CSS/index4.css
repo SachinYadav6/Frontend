@@ -1,0 +1,48 @@
+h1{
+    color:transparent;
+    margin: 45px;
+    font-size: 140px;
+    text-transform: uppercase;
+    background-clip:text;
+    font-family:'Courier New', Courier, monospace;
+    background-position: center;
+    background-image: url('https://media.istockphoto.com/id/530741074/photo/red-fort-lal-qila-with-indian-flag-delhi-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=tho6J6cs5E6gXI-Y8ZarqICpSVdOJ5gBB_th5W_e2bo=');
+    background-size: 200%;
+    background-position: center;
+    /* animation-name: heading;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: both; */
+    animation: textflow 6s ease-in-out infinite alternate;
+    filter: drop-shadow(0 0 15px rgb(68, 13, 109));
+}
+body{
+    background: rgb(162, 146, 146);
+}
+@keyframes textflow {
+    0%{
+        transform: scale(1);
+       background-position: left;
+       letter-spacing: 2px;
+    }
+50%{
+    background-position: center;
+
+    transform: scale(1) rotate(3deg);
+    letter-spacing: 6px;
+}
+
+100%{
+    background-position: right;
+    transform: scale(1);
+    letter-spacing: 2px;
+}
+
+
+    
+
+}
+

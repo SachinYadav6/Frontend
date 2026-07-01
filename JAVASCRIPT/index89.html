@@ -1,0 +1,82 @@
+<!-- ================= HTML FILE ================= -->
+<!-- save as index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="index89.css">
+</head>
+<body>
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li>Home</li>
+      <li>Users</li>
+      <li>Analytics</li>
+      <li>Settings</li>
+    </ul>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- HEADER -->
+    <div class="header">
+      <h1>Admin Dashboard</h1>
+      <button id="modeBtn">Toggle Dark Mode</button>
+    </div>
+
+    <!-- CARDS -->
+    <div class="cards">
+
+      <div class="card">
+        <h3>Users</h3>
+        <p id="users">0</p>
+      </div>
+
+      <div class="card">
+        <h3>Sales</h3>
+        <p id="sales">0</p>
+      </div>
+
+      <div class="card">
+        <h3>Revenue</h3>
+        <p id="revenue">0</p>
+      </div>
+
+      <div class="card">
+        <h3>Orders</h3>
+        <p id="orders">0</p>
+      </div>
+
+    </div>
+
+    <!-- TABLE -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody id="tableBody"></tbody>
+
+    </table>
+
+  </div>
+
+  <!-- JS LINK -->
+  <script src="index89.js"></script>
+
+</body>
+</html>
+
+

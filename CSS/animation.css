@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    animation-name: spinScale;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: red;
+    border-radius: 1px;
+    margin: 84px;
+}
+@keyframes spinScale {
+  0%   { transform: rotate(0deg) scale(1);
+background-color: red;
+color: azure; }
+  50%  { transform: rotate(180deg) scale(1.5);
+    background-color: yellow;
+    color: pink;
+ }
+  100% { transform: rotate(360deg) scale(1);
+background-color: aqua;
+color: wheat; }
+}

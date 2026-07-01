@@ -1,0 +1,29 @@
+p:hover{
+    background-color: red;
+    transition: all 2s ease-in ;
+    transform: translate(45px);
+    display: inline-block;
+    margin: 56px;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-family: serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h1:hover{
+    background-color: red;
+    transition: all 2s ease-in  ;
+    transform: translate(90px) rotate(360deg);
+    display: inline-block;
+    padding: 12px; 
+    border-radius: 5px;
+    color: white;
+    font-family: serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
