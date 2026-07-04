@@ -1,0 +1,13 @@
+.div-css{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 23px;
+    border-radius: 15px;
+    border-bottom: 3px solid wheat;
+    border-right: 6px solid wheat;
+}
