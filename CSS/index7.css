@@ -1,0 +1,20 @@
+#heading{
+    background: red;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 34px;
+    
+}
+.h1{
+    text-align: center;
+}
+h1{
+    color: wheat;
+}
+*{
+    background: rgb(25, 21, 21);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
