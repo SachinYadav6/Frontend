@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(15, 15, 14);
+margin: 23px 45px;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(237, 240, 240);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(202, 149, 149, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+button{
+    background-color: red;
+    padding: 5px 18px;
+    border-style: none;
+    border-radius: 5px;
+    
+}
