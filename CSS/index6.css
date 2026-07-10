@@ -1,0 +1,21 @@
+.card{
+    height: 200px;
+    width: 200px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background: white;
+    border-radius: 18px;
+    border: 1px solid red;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.btn{
+    background-color: red;
+
+    text-align: center;
+    border-radius: 18px;
+    padding: 1cap;
+
+   
+}
