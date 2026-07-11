@@ -1,0 +1,52 @@
+.div{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 10px 30px 0 rgb(0,0,0,0.2);
+    background-color: whitesmoke;
+    border-radius:18px ;
+   
+}
+.animate{
+    animation: circle 3s ease-in-out 3;
+
+}
+@keyframes circle {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    75%{
+        transform: scaleX(1.5);
+    }
+    100%{
+        transform: translateX(30px);
+    }
+}
+#button{
+   text-align: center;
+   border-style: none;
+    background-color: rgb(150, 59, 29);
+     box-shadow: 0 10px 30px 0 rgb(0,0,0,0.2);
+     margin: 34px;
+     padding: 5px 18px;
+     border-radius:6px ;
+     color: wheat;
+     
+} 
+
+.btn{
+        animation: btn 3s ease-in-out 3;
+}
+   
+
+@keyframes btn {
+    100%{
+        transform:translateX(30px) ;
+    }
+    
+}
