@@ -3,7 +3,7 @@ har ek fiirst char ko str me convert krna hai ok
 hint :--- 
 split() → String ko Array banata hai 
 join() → Array ko String banata hai 
-*/ 
+*/
 let str = 'this is sachin kumar';
 let splitarray = str.split(" ");
 console.log(splitarray);
