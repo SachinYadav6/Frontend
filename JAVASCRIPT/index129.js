@@ -57,6 +57,7 @@ console.log(carProduct);
 
 /* product 2*/
 /* reduce method*/
+
 let product2 = [{
     
     name: 'thar',
