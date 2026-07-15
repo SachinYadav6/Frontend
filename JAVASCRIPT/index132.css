@@ -1,0 +1,43 @@
+.navbar{
+    background-color: rgb(110, 113, 121);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60px;
+    border-radius: 18px;
+    box-shadow:0 10px 30px rgb(0,0,0,0.2);
+}
+li{
+    list-style: none;
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* div container */
+div{
+    border-radius:18px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    gap: 20px;
+}
+
+ .card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 18px;
+    object-fit: cover;
+
+   
+}
+/* footer css */
+.footer-container{
+    background:black;
+    color:white;
+    padding:20px;
+}
