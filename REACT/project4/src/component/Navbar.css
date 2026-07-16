@@ -1,0 +1,22 @@
+nav {
+  background-color: #24292e;
+  padding: 15px 40px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul li {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav ul li:hover {
+  color: orange;
+}
