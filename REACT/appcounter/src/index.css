@@ -1,0 +1,38 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    background-color: black;
+    
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+h1{
+  background-color: grey;
+  padding: 50%;
+  text-align: center;
+ margin: 5%;
+  display: inline-block;
+  border-radius: 4px;
+
+}
+button{
+  padding: 20px 30px;
+  border-style: none;
+ background-color: red;
+ color: rgb(239, 236, 232);
+ font-weight: 900;
+ border-radius: 5px;
+ text-transform: capitalize;
+}
+div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+ 
+}
