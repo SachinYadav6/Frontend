@@ -1,0 +1,22 @@
+.main2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.main2::-webkit-scrollbar{
+    width: 8px;
+}
+
+.main2::-webkit-scrollbar-track{
+    background: #ddd;
+}
+
+.main2::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius: 10px;
+}
+
+.main2::-webkit-scrollbar-thumb:hover{
+    background: #222;
+}

@@ -1,0 +1,40 @@
+.main1andmain2{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 20px;
+
+    padding: 20px;
+    margin-top: 90px;
+
+    align-items: start;
+}
+
+/* Left Section */
+.section-container{
+    position: sticky;
+    top: 90px;
+    align-self: start;
+}
+
+/* Right Section */
+.main2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+/* responsive design  */
+@media (max-width: 992px){
+
+    .main1andmain2{
+        grid-template-columns: 1fr;
+    }
+
+    .section-container{
+        position: static;
+    }
+
+    .main2{
+        grid-template-columns: 1fr;
+    }
+
+}
