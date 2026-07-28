@@ -1,0 +1,84 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+   
+}
+
+html,body{
+    min-height: 100%;
+    background: #0f172a;
+    
+}
+/* card ka css */
+.card{
+    width: 300px;
+    padding: 23px;
+    gap: 18px;
+    justify-content: space-between;
+   background:#1e293b;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+}
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 35px rgba(0,0,0,.35);
+}
+
+img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.card:hover img{
+    transform: scale(1.08);
+}
+h1{
+    font-family: serif;
+    text-align: center;
+     color:#ffffff;
+    text-transform: capitalize;
+}
+p{
+    line-height: 23px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#cbd5e1;
+}
+button{
+    border-style: none;
+  padding: 10px;
+   background:#3b82f6;
+   color: white;
+    cursor:pointer;
+   letter-spacing:1px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    
+}
+button:hover{
+    background:#2563eb;
+     transform:scale(1.08);
+}
+/* container ka css app.jsx */
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 60px;
+
+}
