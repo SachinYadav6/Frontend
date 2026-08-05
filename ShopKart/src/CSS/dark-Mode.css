@@ -1,0 +1,99 @@
+body.dark{
+
+background:#121212;
+
+color:white;
+
+}
+
+
+
+body.dark .navbar{
+
+background:#1e1e1e;
+
+}
+
+
+
+body.dark .logo a,
+
+body.dark .nav-links li a{
+
+color:white;
+
+}
+
+
+
+body.dark .product-card,
+
+body.dark .profile-card,
+
+body.dark .wishlist-card,
+
+body.dark .checkout-box,
+
+body.dark .order-card{
+
+background:#1e1e1e;
+
+color:white;
+
+}
+
+
+
+
+
+body.dark h1,
+
+body.dark h2,
+
+body.dark h3,
+
+body.dark p{
+
+color:white;
+
+}
+
+
+
+
+
+body.dark input,
+
+body.dark select,
+
+body.dark textarea{
+
+background:#333;
+
+color:white;
+
+border:1px solid #555;
+
+}
+
+
+
+
+
+body.dark button{
+
+background:#333;
+
+color:white;
+
+}
+
+
+
+
+
+body.dark .nav-links{
+
+background:#1e1e1e;
+
+}

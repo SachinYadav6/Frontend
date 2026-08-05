@@ -1,0 +1,134 @@
+.footer{
+
+    background:#111;
+    color:white;
+    padding:30px;
+    text-align:center;
+    margin-top:40px;
+
+}
+
+
+.footer h3{
+
+    font-size:28px;
+    margin-bottom:10px;
+
+}
+
+
+.footer p{
+
+    font-size:16px;
+    color:#ccc;
+    margin:0;
+
+}
+/* ================= DARK MODE ================= */
+
+
+body.dark .profile-page{
+
+    background:#121212;
+
+}
+
+
+
+/* Profile Card */
+
+body.dark .profile-card{
+
+    background:#1e1e1e;
+
+    color:white;
+
+    box-shadow:0 8px 25px rgba(255,255,255,0.05);
+
+}
+
+
+
+/* Heading */
+
+body.dark .profile-card h1{
+
+    color:white;
+
+}
+
+
+
+/* Profile Info Box */
+
+body.dark .profile-info{
+
+    background:#2a2a2a;
+
+}
+
+
+
+body.dark .profile-info p{
+
+    color:#ddd;
+
+}
+
+
+
+/* Buttons */
+
+body.dark .profile-buttons button,
+
+body.dark .login-message button{
+
+    background:white;
+
+    color:black;
+
+}
+
+
+
+body.dark .profile-buttons button:hover,
+
+body.dark .login-message button:hover{
+
+    background:#ddd;
+
+}
+
+
+
+/* Logout button same red rahega */
+
+body.dark .profile-buttons .logout{
+
+    background:#e53935;
+
+    color:white;
+
+}
+
+
+
+body.dark .profile-buttons .logout:hover{
+
+    background:#c62828;
+
+}
+
+
+
+/* Login Message */
+
+body.dark .login-message{
+
+    background:#1e1e1e;
+
+    color:white;
+
+    box-shadow:0 5px 20px rgba(255,255,255,0.05);
+
+}

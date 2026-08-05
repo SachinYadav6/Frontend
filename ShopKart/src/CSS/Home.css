@@ -1,0 +1,180 @@
+.home{
+
+    min-height:70vh;
+
+}
+
+
+/* Hero Section */
+
+.hero{
+
+    background:linear-gradient(
+        135deg,
+        #111,
+        #333
+    );
+
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+    margin-bottom:40px;
+
+}
+
+
+.hero h1{
+
+    font-size:45px;
+    margin-bottom:15px;
+
+}
+
+
+.hero p{
+
+    font-size:20px;
+    color:#ddd;
+
+}
+
+
+/* Products Section */
+
+.products-section{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding-bottom:50px;
+
+}
+
+
+.products-section h2{
+
+    text-align:center;
+    font-size:32px;
+    margin-bottom:35px;
+
+}
+
+
+/* Product Cards Layout */
+
+.product-container{
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+
+}
+/* ================= DARK MODE ================= */
+
+
+body.dark .profile-page{
+
+    background:#121212;
+
+}
+
+
+
+/* Profile Card */
+
+body.dark .profile-card{
+
+    background:#1e1e1e;
+
+    color:white;
+
+    box-shadow:0 8px 25px rgba(255,255,255,0.05);
+
+}
+
+
+
+/* Heading */
+
+body.dark .profile-card h1{
+
+    color:white;
+
+}
+
+
+
+/* Profile Info Box */
+
+body.dark .profile-info{
+
+    background:#2a2a2a;
+
+}
+
+
+
+body.dark .profile-info p{
+
+    color:#ddd;
+
+}
+
+
+
+/* Buttons */
+
+body.dark .profile-buttons button,
+
+body.dark .login-message button{
+
+    background:white;
+
+    color:black;
+
+}
+
+
+
+body.dark .profile-buttons button:hover,
+
+body.dark .login-message button:hover{
+
+    background:#ddd;
+
+}
+
+
+
+/* Logout button same red rahega */
+
+body.dark .profile-buttons .logout{
+
+    background:#e53935;
+
+    color:white;
+
+}
+
+
+
+body.dark .profile-buttons .logout:hover{
+
+    background:#c62828;
+
+}
+
+
+
+/* Login Message */
+
+body.dark .login-message{
+
+    background:#1e1e1e;
+
+    color:white;
+
+    box-shadow:0 5px 20px rgba(255,255,255,0.05);
+
+}

@@ -1,0 +1,162 @@
+/* ================= LOGIN PAGE ================= */
+
+.login{
+
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background:#f5f5f5;
+    transition:.3s;
+
+}
+
+
+/* ================= HEADING ================= */
+
+.login h1{
+
+    font-size:32px;
+    margin-bottom:25px;
+    color:#222;
+
+}
+
+
+/* ================= FORM ================= */
+
+.login form{
+
+    width:350px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:.3s;
+
+}
+
+
+/* ================= INPUT ================= */
+
+.login input{
+
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+    outline:none;
+    box-sizing:border-box;
+    transition:.3s;
+
+}
+
+
+.login input:focus{
+
+    border-color:#111;
+
+}
+
+
+/* ================= BUTTON ================= */
+
+.login button{
+
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#111;
+    color:white;
+    font-size:17px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+
+.login button:hover{
+
+    background:#333;
+
+}
+
+
+/* ================= DARK MODE ================= */
+
+body.dark .login{
+
+    background:#121212;
+
+}
+
+
+body.dark .login h1{
+
+    color:white;
+
+}
+
+
+body.dark .login form{
+
+    background:#1e1e1e;
+    box-shadow:0 5px 15px rgba(255,255,255,0.05);
+
+}
+
+
+body.dark .login input{
+
+    background:#2a2a2a;
+    color:white;
+    border:1px solid #555;
+
+}
+
+
+body.dark .login input::placeholder{
+
+    color:#bbb;
+
+}
+
+
+body.dark .login input:focus{
+
+    border-color:white;
+
+}
+
+
+body.dark .login button{
+
+    background:white;
+    color:black;
+
+}
+
+
+body.dark .login button:hover{
+
+    background:#ddd;
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media(max-width:500px){
+
+    .login form{
+
+        width:100%;
+        max-width:350px;
+
+    }
+
+}

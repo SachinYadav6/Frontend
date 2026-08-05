@@ -1,0 +1,441 @@
+/* ================= MY ORDERS PAGE ================= */
+
+
+.orders{
+
+    min-height:100vh;
+    background:#f5f5f5;
+    padding:50px 20px;
+    transition:0.3s;
+
+}
+
+
+
+.orders h1{
+
+    text-align:center;
+    font-size:40px;
+    color:#222;
+    margin-bottom:40px;
+
+}
+
+
+
+/* ================= ORDER CARD ================= */
+
+
+.order-card{
+
+    max-width:850px;
+    margin:25px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.1);
+    transition:0.3s;
+
+}
+
+
+.order-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+
+
+
+/* HEADER */
+
+
+.order-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom:15px;
+    border-bottom:1px solid #ddd;
+
+}
+
+
+
+.order-header h3{
+
+    color:#222;
+    font-size:20px;
+
+}
+
+
+
+.order-header p{
+
+    color:#777;
+
+}
+
+
+
+
+
+/* TOTAL */
+
+
+.order-total{
+
+    margin:25px 0;
+    font-size:24px;
+    font-weight:700;
+    color:#111;
+
+}
+
+
+
+
+
+/* PRODUCTS */
+
+
+.products h3{
+
+    font-size:22px;
+    color:#222;
+    margin-bottom:15px;
+
+}
+
+
+
+
+.order-product{
+
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:15px 0;
+    border-bottom:1px solid #eee;
+
+}
+
+
+
+
+.order-product img{
+
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    background:#fafafa;
+    border-radius:12px;
+
+}
+
+
+
+
+.order-product h4{
+
+    font-size:18px;
+    margin-bottom:10px;
+    color:#222;
+
+}
+
+
+
+.order-product p{
+
+    margin:5px 0;
+    color:#666;
+
+}
+
+
+
+
+
+/* DELIVERY DETAILS */
+
+
+.customer{
+
+    margin-top:30px;
+    padding:25px;
+    background:#fafafa;
+    border-radius:15px;
+
+}
+
+
+
+.customer h3{
+
+    color:#222;
+    margin-bottom:15px;
+
+}
+
+
+
+.customer p{
+
+    color:#555;
+    margin:8px 0;
+
+}
+
+
+
+
+
+/* EMPTY ORDERS */
+
+
+.no-orders{
+
+    max-width:450px;
+    margin:auto;
+    background:white;
+    padding:45px 30px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.1);
+
+}
+
+
+
+.no-orders h2{
+
+    color:#222;
+    font-size:28px;
+
+}
+
+
+
+.no-orders p{
+
+    color:#777;
+    font-size:17px;
+
+}
+
+
+
+
+
+
+/* ================= DARK MODE ================= */
+
+
+body.dark .orders{
+
+    background:#121212;
+
+}
+
+
+
+body.dark .orders h1{
+
+    color:white;
+
+}
+
+
+
+
+body.dark .order-card{
+
+    background:#1e1e1e;
+    color:white;
+    box-shadow:0 8px 25px rgba(255,255,255,0.05);
+
+}
+
+
+
+
+
+body.dark .order-header{
+
+    border-color:#444;
+
+}
+
+
+
+body.dark .order-header h3{
+
+    color:white;
+
+}
+
+
+
+body.dark .order-header p{
+
+    color:#aaa;
+
+}
+
+
+
+
+body.dark .order-total{
+
+    color:white;
+
+}
+
+
+
+
+body.dark .products h3{
+
+    color:white;
+
+}
+
+
+
+body.dark .order-product{
+
+    border-color:#444;
+
+}
+
+
+
+body.dark .order-product img{
+
+    background:#2a2a2a;
+
+}
+
+
+
+body.dark .order-product h4{
+
+    color:white;
+
+}
+
+
+
+body.dark .order-product p{
+
+    color:#bbb;
+
+}
+
+
+
+
+body.dark .customer{
+
+    background:#2a2a2a;
+
+}
+
+
+
+body.dark .customer h3{
+
+    color:white;
+
+}
+
+
+
+body.dark .customer p{
+
+    color:#ddd;
+
+}
+
+
+
+
+
+body.dark .no-orders{
+
+    background:#1e1e1e;
+
+}
+
+
+
+body.dark .no-orders h2{
+
+    color:white;
+
+}
+
+
+
+body.dark .no-orders p{
+
+    color:#bbb;
+
+}
+
+
+
+
+
+/* --------MOBILE ---- */
+
+
+@media(max-width:600px){
+
+
+    .orders{
+
+        padding:30px 15px;
+
+    }
+
+
+    .orders h1{
+
+        font-size:32px;
+
+    }
+
+
+    .order-card{
+
+        padding:20px;
+
+    }
+
+
+
+    .order-header{
+
+        flex-direction:column;
+        align-items:flex-start;
+        gap:10px;
+
+    }
+
+
+
+    .order-product img{
+
+        width:65px;
+        height:65px;
+
+    }
+
+
+
+}

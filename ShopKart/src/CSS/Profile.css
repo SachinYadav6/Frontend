@@ -1,0 +1,289 @@
+.profile-page{
+
+min-height:80vh;
+
+background:#f5f5f5;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:40px 20px;
+
+}
+
+
+
+
+
+.profile-card{
+
+width:400px;
+
+background:white;
+
+padding:35px;
+
+border-radius:18px;
+
+text-align:center;
+
+box-shadow:0 8px 25px rgba(0,0,0,0.12);
+
+}
+
+
+
+
+
+.profile-icon{
+
+font-size:60px;
+
+margin-bottom:15px;
+
+}
+
+
+
+
+
+.profile-card h1{
+
+font-size:32px;
+
+color:#222;
+
+margin-bottom:25px;
+
+}
+
+
+
+
+
+.profile-info{
+
+text-align:left;
+
+background:#fafafa;
+
+padding:20px;
+
+border-radius:12px;
+
+}
+
+
+
+
+
+.profile-info p{
+
+font-size:17px;
+
+margin:15px 0;
+
+color:#444;
+
+}
+
+
+
+
+
+.profile-buttons{
+
+margin-top:25px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:12px;
+
+}
+
+
+
+
+
+.profile-buttons button,
+
+.login-message button{
+
+padding:13px;
+
+border:none;
+
+border-radius:10px;
+
+background:#111;
+
+color:white;
+
+font-size:16px;
+
+cursor:pointer;
+
+}
+
+
+
+
+
+.profile-buttons button:hover,
+
+.login-message button:hover{
+
+background:#333;
+
+}
+
+
+
+
+
+.profile-buttons .logout{
+
+background:#e53935;
+
+}
+
+
+
+
+
+.profile-buttons .logout:hover{
+
+background:#c62828;
+
+}
+
+
+
+
+
+.login-message{
+
+background:white;
+
+padding:40px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+}
+/* ================= DARK MODE ================= */
+
+
+body.dark .profile-page{
+
+    background:#121212;
+
+}
+
+
+
+/* Profile Card */
+
+body.dark .profile-card{
+
+    background:#1e1e1e;
+
+    color:white;
+
+    box-shadow:0 8px 25px rgba(255,255,255,0.05);
+
+}
+
+
+
+/* Heading */
+
+body.dark .profile-card h1{
+
+    color:white;
+
+}
+
+
+
+/* Profile Info Box */
+
+body.dark .profile-info{
+
+    background:#2a2a2a;
+
+}
+
+
+
+body.dark .profile-info p{
+
+    color:#ddd;
+
+}
+
+
+
+/* Buttons */
+
+body.dark .profile-buttons button,
+
+body.dark .login-message button{
+
+    background:white;
+
+    color:black;
+
+}
+
+
+
+body.dark .profile-buttons button:hover,
+
+body.dark .login-message button:hover{
+
+    background:#ddd;
+
+}
+
+
+
+/* Logout button same red rahega */
+
+body.dark .profile-buttons .logout{
+
+    background:#e53935;
+
+    color:white;
+
+}
+
+
+
+body.dark .profile-buttons .logout:hover{
+
+    background:#c62828;
+
+}
+
+
+
+/* Login Message */
+
+body.dark .login-message{
+
+    background:#1e1e1e;
+
+    color:white;
+
+    box-shadow:0 5px 20px rgba(255,255,255,0.05);
+
+}
