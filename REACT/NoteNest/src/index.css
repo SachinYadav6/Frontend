@@ -445,6 +445,7 @@ select:focus-visible {
   overflow-wrap: anywhere;
 }
 
+
 .note-content {
   margin-top: 10px;
   color: var(--text-soft);
@@ -457,6 +458,8 @@ select:focus-visible {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+
 
 .note-card-bottom {
   display: flex;
