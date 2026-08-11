@@ -30,7 +30,9 @@
   --shadow: 0 10px 35px rgba(20, 24, 40, 0.08);
 }
 
-:root[data-theme="dark"] {
+/* Dark Theme */
+
+[data-theme="dark"] {
   color: #f5f7fb;
   background: #11131a;
 
@@ -595,5 +597,4 @@ select:focus-visible {
     justify-content: flex-end;
   }
 }
-
 
