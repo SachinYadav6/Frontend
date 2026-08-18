@@ -1,6 +1,6 @@
 public class returnRecurivevlue {
     static int oddnumber(int n) {
-        if (n > 20) {
+        if (n > 21) {
             return n;
         }
         if (n % 2 != 0) {
@@ -11,8 +11,7 @@ public class returnRecurivevlue {
 
     }
     public static void main(String[] args) {
-        int oddnumberPrint = oddnumber(1);
-      System.out.println(oddnumberPrint);
+        oddnumber(1);
     }
     
 }
