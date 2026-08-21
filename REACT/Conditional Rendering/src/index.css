@@ -1,0 +1,25 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background: #000;
+}
+div{
+  height: 300px;
+  width: 300px;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 34px;
+  border-radius:5px ;
+}
+div h1{
+  color:wheat;
+}
