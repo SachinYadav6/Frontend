@@ -28,7 +28,7 @@ export default function Product() {
   return (
       <>
           <div className='productsearch'>
-              {/* <h1>card seach product </h1> */}
+              {/*input   */}
               <div className='searchbox'>
                   
               <input type="text" placeholder='search product' value={search}
