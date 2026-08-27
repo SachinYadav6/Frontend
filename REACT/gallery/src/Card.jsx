@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { } from 'react'
 
 export default function Card(props) {
+  
+
   return (
       <div className="card">
           <img src={props.thumbnail} alt="thumbnail img url" />
@@ -10,7 +12,12 @@ export default function Card(props) {
           <p>{props.brand}</p>
           <p>{props.price}</p>
           <p>{ props.stock}</p>
-          <button>add to card</button>
+      <button
+        onClick={() => {
+          props.addtocart(props)
+        }}
+      >add to card</button>
+      
 
     </div>
   )

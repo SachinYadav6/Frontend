@@ -1,8 +1,70 @@
-# React + Vite
+# 🖼️ Product Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Product Gallery** project built with React.
+Products are fetched from an API and displayed as reusable product cards.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Fetch products from API
+* Display products in card layout
+* Product search functionality
+* Add to Cart functionality
+* Quantity handling
+* Cart page
+* Responsive UI
+
+## 🛠️ Technologies Used
+
+* React.js
+* JavaScript
+* CSS
+* Axios
+* React Router
+
+## 📦 API
+
+Products are fetched from:
+
+`https://dummyjson.com/products`
+
+## ▶️ Run Project
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local URL shown by Vite.
+
+## 📁 Main Components
+
+```text
+src/
+│
+├── App.jsx
+├── Product.jsx
+├── Card.jsx
+├── cart.jsx
+└── CSS files
+```
+
+## 🎯 Project Goal
+
+This project is created to practice:
+
+* React Components
+* Props
+* State
+* `useEffect`
+* `useMemo`
+* API fetching
+* Search & filtering
+* Add to Cart
+* React Router
+* Dynamic UI rendering
+
+## 👨‍💻 Status
+
+🚧 **Currently in development**
+
+More cart functionality such as increase, decrease and remove items will be added.
