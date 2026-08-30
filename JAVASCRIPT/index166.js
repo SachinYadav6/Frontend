@@ -6,7 +6,7 @@ let right = n.length - 1;
 let found = false;
 while (left<=right) {
     let mid = Math.floor((left + right) / 2);
-    if (n[mid] ===target) {
+    if (n[mid] === target) {
         found = true;
       
         break;
