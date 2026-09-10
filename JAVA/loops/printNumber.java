@@ -5,5 +5,6 @@ public class printNumber {
             System.out.println(i);
         }
     }
-    
+
 }
+
