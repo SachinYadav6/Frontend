@@ -6,5 +6,5 @@ for (let i = 0; num.length; i++) {
         min = num[i];
     }
 }
-console.log(max);
+console.log(min);
 
