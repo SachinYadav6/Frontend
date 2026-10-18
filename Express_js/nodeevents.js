@@ -1,1 +1,1 @@
-const EventEmitter=require()
+const EventEmitter = require()
